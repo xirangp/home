@@ -7,7 +7,7 @@
         size="28"
         fill="#ffffff60"
         v-show="closeShow"
-        @click="store.boxOpenState = false"
+        @click="store.boxOpenState = true"
       />
     </transition>
     <transition name="el-fade-in-linear">
@@ -22,6 +22,7 @@
     </transition>
     <div class="content">
       <!-- 可在此处自定义任意内容 -->
+      我见青山多妩媚~
       <TimeCapsule />
       <MoreContent />
     </div>
@@ -35,7 +36,7 @@ import TimeCapsule from "@/components/TimeCapsule.vue";
 import MoreContent from "@/components/MoreContent.vue";
 
 const store = mainStore();
-const closeShow = ref(false);
+const closeShow = ref(true);
 </script>
 
 <style lang="scss" scoped>
