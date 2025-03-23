@@ -7,7 +7,7 @@
         size="28"
         fill="#ffffff60"
         v-show="closeShow"
-        @click="store.boxOpenState = true"
+        @click="store.boxOpenState = false"
       />
     </transition>
     <transition name="el-fade-in-linear">
@@ -36,7 +36,7 @@ import TimeCapsule from "@/components/TimeCapsule.vue";
 import MoreContent from "@/components/MoreContent.vue";
 
 const store = mainStore();
-const closeShow = ref(true);
+const closeShow = ref(false);
 </script>
 
 <style lang="scss" scoped>
