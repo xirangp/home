@@ -7,7 +7,7 @@
         size="28"
         fill="#ffffff60"
         v-show="closeShow"
-        @click="store.boxOpenState = true"
+        @click="store.boxOpenState = false"
       />
     </transition>
     <transition name="el-fade-in-linear">
