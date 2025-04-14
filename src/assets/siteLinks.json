@@ -5,20 +5,28 @@
     "name": "博客",
     "link": "https://383842.xyz/"
   },
+    "icon": "Blog",
+    "name": "博客1",
+    "link": "https://blog.383842.xyz/"
+  },
   {
-    "icon": "Cloud",
-    "name": "网盘",
+    "icon": "Blog",
+    "name": "博客2",
     "link": "https://rangxi.383842.xyz/"
   },
   {
     "icon": "Cloud",
-    "name": "网盘1",
+    "name": "网盘",
     "link": "https://xirang.383842.xyz/"
   },
   {
     "icon": "Cloud",
-    "name": "网盘2",
+    "name": "网盘1",
     "link": "https://www.383842.xyz/"
+  },
+    "icon": "Cloud",
+    "name": "临时网盘",
+    "link": "https://xgoebmwd.sealoshzh.site"
   },
   {
     "icon": "https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL2kvcyFBa1pRN2dYUGY1VzlnWmxPa1VVWlljaDZxVDM3Unc.gif",
